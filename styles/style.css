@@ -146,6 +146,8 @@ nav{
 
 
 
+
+
 /* Game section */
 
 .game-content{
@@ -155,9 +157,18 @@ nav{
 .game{
     font-size: 45px;
 }
+.game-div{
+    width:auto;
+    text-align:center;
+    padding:5px;
+}
 .game-image{
-    width: 60%;
-    margin-left: 10%;
+    height: auto;
+    object-fit: fill;
+}
+.responsive-image{
+    width: 100%;
+    height: auto;
 }
 .game-content{
     width: 40%;
@@ -262,7 +273,7 @@ nav{
     margin-top: 15px;
     margin-left: 20px;
     margin-bottom: 50px;
-    width: 50%;
+    width: 70%;
 }
 
 
@@ -272,7 +283,7 @@ nav{
     margin-top: 70px;
 }
 .experience-image > img{
-    width: 70%;
+    width: 100%;
     height: 50%;
     margin-left: 50px;
 
@@ -378,6 +389,7 @@ nav{
     border: 3px solid red;
     margin: 30px;
     border-radius: 48px;
+    animation: ease-in-out;
 }
 .company-row p:hover{
     color: red;
@@ -490,4 +502,69 @@ footer >h4{
     font-weight: 500;
     line-height: normal;
     color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 576px){
+    nav,.nav-menu,
+    .banner,
+    .experience,
+    .carers{
+        height: auto;
+        flex-direction: column;
+    }
+    .nav-logo{
+        margin-bottom: 0;
+    }
+    .nav-menu{
+        display: block;
+
+    }
+    .menu-item >a{
+        display: block;
+        margin: 10px;
+    }
+
+
+    .game-content{
+        width: 90%;
+        text-align: center;
+        margin: 20px;
+    }
+    .video-parent{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 40px 120px;
+    }
+
+    .experience-content{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .experience p{
+
+        width: 100%;
+    }
+    .experience-image{
+        text-align: center;
+        width: 100%;
+    }
+    .experience-btn >img{
+        width: 360px;
+        height: 320px;
+        padding-right: 80px;
+        bottom: 100px;
+    }
+
+
+    .carers-content{
+        width: 85%;
+        margin: 30px;
+    }
+
+
+
+
+
 }
