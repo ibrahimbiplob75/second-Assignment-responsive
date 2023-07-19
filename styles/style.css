@@ -143,3 +143,241 @@ nav{
     margin-top: 0;
 
 }
+
+
+
+/* Game section */
+
+.game-content{
+    text-align: end;
+    margin-right: 50px;
+}
+.game{
+    font-size: 45px;
+}
+.game-image{
+    width: 60%;
+    margin-left: 10%;
+}
+.game-content{
+    width: 40%;
+}
+
+/* video section */
+.video{
+    margin-top: 27px;
+}
+.video-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 40px 120px;
+}
+
+.video-card{
+    width: auto;
+}
+
+.video-card h4{
+    width: 80%;
+}
+
+
+
+
+.container {
+    position: relative;
+    width: 90%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.opacity {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+    border-radius: 13px;
+    border: 2px solid orangered;
+}
+
+.container:hover .opacity {
+    opacity: 1;
+
+
+}
+
+.opacity>h3 {
+
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+/* Experience style */
+
+.experience{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.experience-content{
+
+    margin-left: 300px;
+    width: 50%;
+
+}
+.experience-title{
+    color:  #131313;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 20px;
+}
+.experience p{
+    color:  #727272;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+
+.experience-image{
+    width: auto;
+    height: auto;
+    margin-top: 70px;
+}
+.experience-image > img{
+    width: 70%;
+    height: 50%;
+    margin-left: 50px;
+
+}
+.experience-btn{
+    position: relative;
+    bottom: 150px;
+}
+.experience-btn img{
+    width: 178px;
+    height: 185px;
+}
+
+
+
+.carers{
+    width: auto;
+    height: 821px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: flex;
+
+}
+.carers-content{
+    width: 60%;
+    margin: 200px 100px 0 200px;
+}
+.carers-title{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    line-height: 50px; /* 125% */
+}
+.carers-des{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-justify: auto;
+    text-align: justify;
+    line-height: 30px; /* 166.667% */
+}
+.carers-list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+.list-right{
+    list-style: none;
+    text-align: end;
+
+}
+.list-left{
+    list-style: none;
+    text-align: start;
+}
+.custom-btn3{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    margin-top: 20px;
+}
+
+
+
+.company {
+    width: auto;
+    height: 427px;
+    margin: 150px;
+    flex-shrink: 0;
+
+}
+.company-image{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    gap: 20px;
+}
+.company-row{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 80px;
+
+}
+.company-row p{
+    color: #0B0223;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 15px;
+}
+.company-row:hover{
+    border: 3px solid red;
+    margin: 30px;
+    border-radius: 48px;
+}
+.company-row p:hover{
+    color: red;
+}
