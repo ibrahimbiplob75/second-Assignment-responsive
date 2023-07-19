@@ -64,3 +64,82 @@ nav{
 .social > div{
     margin: 20px;
 }
+
+
+/* Banner start */
+.banner{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.banner-btn{
+    margin-top: 40px;
+}
+.custom-btn1, .custom-btn2{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background:  #FF42A5;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+.custom-btn2{
+    background: #4EC5F7;
+    margin-left: 10px;
+}
+.banner-title2{
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 0;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+.banner-title1{
+    margin-top: 0;
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.banner-icon p{
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.row{
+    display: flex;
+    align-items: center;
+
+}
+.row p{
+    margin-left: 10px;
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-top: 0;
+
+}
