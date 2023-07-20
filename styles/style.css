@@ -154,9 +154,7 @@ nav{
     text-align: end;
     margin-right: 50px;
 }
-.game{
-    font-size: 45px;
-}
+
 .game-div{
     width:auto;
     text-align:center;
@@ -285,17 +283,18 @@ nav{
 .experience-image > img{
     width: 100%;
     height: 50%;
-    margin-left: 50px;
+    margin-left: 70px;
 
 }
 .experience-btn{
     position: relative;
     bottom: 150px;
+    margin-right: 40px;
 }
-.experience-btn img{
-    width: 178px;
-    height: 185px;
+.experience-btn >img{
+    width: 50%;
 }
+
 
 
 
@@ -504,8 +503,9 @@ footer >h4{
     color: #FFFFFF;
 }
 
+/* Media query for Mobile View */
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 960px){
     nav,.nav-menu,
     .banner,
     .experience,
@@ -562,6 +562,121 @@ footer >h4{
         width: 85%;
         margin: 30px;
     }
+
+
+    .footer-list{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+    }
+    .footer-social{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 20px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 962px) and (max-width:1200px){
+
+    .banner,
+    .experience,
+    .carers{
+        height: auto;
+        flex-direction: column;
+    }
+    .nav-logo{
+        margin: 0;
+    }
+    .nav-menu{
+        display: inline-flex;
+        margin-left: 0;
+
+    }
+    .menu-item> a{
+        margin: 5px;
+    }
+
+
+
+    .game-content{
+        width: 90%;
+        text-align: center;
+        margin: 20px;
+    }
+    .video-parent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 40px 120px;
+    }
+
+    .experience-content{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .experience p{
+
+        width: 100%;
+    }
+    .experience-image{
+        width: 100%;
+    }
+    .experience-btn >img{
+        width: 70%;
+        height: 400px;
+        padding-right: 80px;
+        bottom: 100px;
+    }
+
+
+    .carers-content{
+        width: 75%;
+        margin: 30px auto;
+        align-items: center;
+    }
+
+
+    .footer-list{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+    }
+    .footer-social{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 20px;
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width: 1201px){
+
+
+
+
+    .carers-content{
+        width: 90%;
+        margin: 50px 100px;
+        align-items: center;
+    }
+    .carers-image >svg{
+        height: auto;
+    }
+
+
+
 
 
 
