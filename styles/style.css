@@ -564,6 +564,15 @@ footer >h4{
     }
 
 
+    .company-row{
+        display: flex;
+        align-items: center;
+        width: 270px;
+        height: 80px;
+
+    }
+
+
     .footer-list{
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -662,9 +671,6 @@ footer >h4{
 }
 
 @media screen and (min-width: 1201px){
-
-
-
 
     .carers-content{
         width: 90%;
